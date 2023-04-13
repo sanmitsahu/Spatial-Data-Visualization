@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+
+<Style id="style_entrance">
+<IconStyle>
+<Icon>
+<href>https://www.google.com/intl/en_us/mapfiles/ms/micons/purple-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+
+<Style id="style_eateries">
+<IconStyle>
+<Icon>
+<href>https://www.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+
+
+<Style id="style_libraries">
+<IconStyle>
+<Icon>
+<href>https://www.google.com/intl/en_us/mapfiles/ms/micons/yellow-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+
+
+<Style id="style_waterworks">
+<IconStyle>
+<Icon>
+<href>https://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+
+
+<Style id="style_home">
+<IconStyle>
+<Icon>
+<href>https://www.google.com/intl/en_us/mapfiles/ms/micons/green-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+
+
+<Placemark>
+<name>Home</name>
+<styleUrl>#style_home</styleUrl>
+<Point>
+<coordinates>-118.287888,34.0323803</coordinates>
+</Point>
+</Placemark>
+
+<Folder>
+<name>Campus Entrances</name>
+<Placemark>
+<name>Pardee Entrance</name>
+<styleUrl>#style_entrance</styleUrl>
+<Point>
+<coordinates>-118.2838538,34.0186425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Watt entrance</name>
+<styleUrl>#style_entrance</styleUrl>
+<Point>
+<coordinates>-118.2886028,34.0191428</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>McClintock Entrance</name>
+<styleUrl>#style_entrance</styleUrl>
+<Point>
+<coordinates>-118.28751,34.024365</coordinates>
+</Point>
+</Placemark>
+</Folder>
+
+
+<Folder>
+<name>Eateries</name>
+<Placemark>
+<name>Starbucks</name>
+<styleUrl>#style_eateries</styleUrl>
+<Point>
+<coordinates>-118.2825563,34.0212898</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Panda Express</name>
+<styleUrl>#style_eateries</styleUrl>
+<Point>
+<coordinates>-118.2860089,34.0205409</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Wingstop</name>
+<styleUrl>#style_eateries</styleUrl>
+<Point>
+<coordinates>-118.2821729,34.0190516</coordinates>
+</Point>
+</Placemark>
+</Folder>
+
+
+
+<Folder>
+<name>Libraries</name>
+<Placemark>
+<name>Leavey Library</name>
+<styleUrl>#style_libraries</styleUrl>
+<Point>
+<coordinates>-118.283566,34.0213104</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Doheny Library</name>
+<styleUrl>#style_libraries</styleUrl>
+<Point>
+<coordinates>-118.284142,34.020341</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Hoose Library</name>
+<styleUrl>#style_libraries</styleUrl>
+<Point>
+<coordinates>-118.2865913,34.0190335</coordinates>
+</Point>
+</Placemark>
+</Folder>
+
+
+<Folder>
+<name>Waterworks</name>
+
+<Placemark>
+<name>Annenberg Fountain</name>
+<styleUrl>#style_waterworks</styleUrl>
+<Point>
+<coordinates>-118.2859997,34.0222589</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Marshall Fountain</name>
+<styleUrl>#style_waterworks</styleUrl>
+<Point>
+<coordinates>-118.2851629,34.0192762</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Main Entrance Fountain</name>
+<styleUrl>#style_entrance</styleUrl>
+<Point>
+<coordinates>-118.283845,34.022642</coordinates>
+</Point>
+</Placemark>
+</Folder>
+
+<Placemark>
+<name>ConvexHullall</name>
+<Style><LineStyle><color>29A6A629</color></LineStyle><PolyStyle><color>ffff7d53</color></PolyStyle></Style>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-118.287888,34.0323803 -118.28751,34.024365 -118.2859997,34.0222589 -118.2886028,34.0191428 -118.2865913,34.0190335 -118.2851629,34.0192762 -118.2838538,34.0186425 -118.2821729,34.0190516 -118.284142,34.020341 -118.2860089,34.0205409 -118.283566,34.0213104 -118.2825563,34.0212898 -118.283845,34.022642</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon> 
+</Placemark>
+
+<Placemark>
+<name>Neighbour1</name>
+<description>Neighbour1</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.287888,34.0323803 -118.28751,34.024365</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Neighbour2</name>
+<description>Neighbour2</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.287888,34.0323803 -118.2859997,34.0222589</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>Neighbour3</name>
+<description>Neighbour3</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.287888,34.0323803 -118.283845,34.022642</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>Neighbour4</name>
+<description>Neighbour4</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.287888,34.0323803 -118.283566,34.0213104</coordinates>
+</LineString>
+</Placemark>
+
+</Document>
+</kml>
